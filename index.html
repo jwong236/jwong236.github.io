@@ -21,6 +21,52 @@
     </head>
 
     <body data-spy="scroll" data-target=".navbar-collapse">
+        <nav class="navbar navbar-default bootsnav navbar-fixed black no-background">
+            <div class="container">  
+
+                <div class="attr-nav">
+                    <ul>
+                        <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
+                    </ul>
+                </div>  
+
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+
+                    <a class="navbar-brand" href="#brand">
+                        JW
+                    </a>
+
+                </div>
+                <!-- End Header Navigation -->
+            </div>   
+
+
+            <!-- Start Side Menu -->
+            <div class="side">
+                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+                <div class="widget">
+                    <h6 class="title">Jacob Wong Portfolio</h6>
+                    <ul class="link main-nav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Education & Experience</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#choose">Technical Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h6 class="title">Additional Links</h6>
+                    <ul class="link">
+                        <li><a href="#">SAP Program</a></li>
+                        <li><a href="#">Extra Links</a></li>
+                        <li><a href="#">Extra Socials</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Side Menu -->
+        </nav>
 
         <!-- Home Section -->
         <section id="home" class="home">
@@ -91,7 +137,7 @@
                                 <div class="col-md-4">
                                     <div class="portf_item_text">
                                         <h5>Enterprise Metric Analysis Tool</h5>
-                                        <p>Full-stack analytics platform aggregating 100k+ data points</p>
+                                        <p>Analyzes sprint data to generate insights for SAP's scrum teams. Presented during UCI's 2024 ICS fair.</p>
                                         <a href="https://github.com/jwong236/enterprise-metric-analysis-tool" target="_blank" class="btn btn-primary">GitHub</a>
                                     </div>
                                 </div>
@@ -100,7 +146,7 @@
                                 <div class="col-md-4">
                                     <div class="portf_item_text">
                                         <h5>Film Flicks</h5>
-                                        <p>30k+ movie search engine with AWS deployment</p>
+                                        <p>30k+ movie search engine. </p>
                                         <a href="http://3.101.38.150/" target="_blank" class="btn btn-primary">Live Demo</a>
                                         <a href="https://github.com/jwong236/film-flicks" target="_blank" class="btn btn-primary">GitHub</a>
                                     </div>
@@ -110,7 +156,7 @@
                                 <div class="col-md-4">
                                     <div class="portf_item_text">
                                         <h5>Restaurant Authority Network</h5>
-                                        <p>ML-powered citation analysis with 80% NER improvement</p>
+                                        <p>Explores web for restaurant mentions and blog references to calculate authority.</p>
                                         <a href="https://github.com/jwong236/restaurant-authority-network" target="_blank" class="btn btn-primary">GitHub</a>
                                     </div>
                                 </div>
@@ -134,7 +180,7 @@
                                 <div class="col-md-3">
                                     <div class="list_item_text">
                                         <h5>Languages</h5>
-                                        <p>Python, Java, C++, SQL, JavaScript</p>
+                                        <p>Python, Java, C/C++, SQL, JavaScript</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
@@ -185,5 +231,20 @@
                 </div>
             </div>
         </section>
+
+                <!-- JS includes -->
+
+                <!-- jQuery (Required) -->
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+                <!-- Bootstrap JS (Required for navbar toggling & components) -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+
+                <!-- Bootsnav (Required for navbar functionality) -->
+                <script src="assets/js/bootsnav.js"></script>
+
+                <!-- Your Custom JS -->
+                <script src="assets/js/main.js"></script>
+
     </body>
 </html>

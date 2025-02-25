@@ -899,6 +899,10 @@ Nav Menu style
 .main-nav li{
     padding: 10px 0;
 }
+.side .widget ul li {
+    padding: 10px 0;
+    list-style: none;
+}
 
 /*
 Home Section style
